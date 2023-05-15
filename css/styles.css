@@ -1,0 +1,87 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Lato', sans-serif;
+    max-width: 100%;
+}
+
+.section-title {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.text-colored {
+    color: #7950f2;
+}
+
+/* NAVBAR STYLE */
+.navbar {
+    background-color: #5f3dc4;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #f1f3f5;
+    color: #212529;
+}
+
+#cabecalho .nav .nav-link, .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #f1f3f5;
+}
+
+/* HOME STYLE */
+#home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#b197fc, #9198e5);
+}
+
+#home li {
+    list-style: none;
+}
+
+#home a {
+    text-decoration: none;
+}
+
+/* SOBRE-MIM STYLE */
+
+
+/* TECNOLOGIAS STYLE */
+#tecnologias {
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+#tecnologias img {
+    width: 50px;
+    height: 50px;
+    margin: 8px 14px 8px 8px;
+}
+
+.card {
+    background-color: #f1f3f5;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tec h4 {
+    font-size: 1.3em;
+}
+
+/* PROJETOS */
+#projetos .nav-link.active {
+    background-color: #5f3dc4;
+}
+
+/* CONTATO */
+#contato button {
+    background-color: #5f3dc4;
+}

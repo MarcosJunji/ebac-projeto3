@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <!-- LINK FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- LINK BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <!-- LINK BOOTSTRAP ICONS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- LINK STYLES CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- LINK BOOTSTRAP JS -->
+    <script src="lib/bootstrap.bundle.min.js" defer></script>
+    <!-- LINK JQUERY & JS -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" defer></script>
+    <script src="js/jquery.mask.min.js" defer></script>
+    <script src="js/jquery.validate.min.js" defer></script>
+    <script src="js/messages_pt_BR.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-3" id="cabecalho">
+        <div class="container">
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-center" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold me-5">
+                        <a href="#home" class="nav-link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold me-5">
+                        <a href="#sobre-mim" class="nav-link">
+                            Sobre mim
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold me-5">
+                        <a href="#tecnologias" class="nav-link">
+                            Tecnologias
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold me-5">
+                        <a href="#projetos" class="nav-link">
+                            Projetos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold me-5">
+                        <a href="#contato" class="nav-link">
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="menu-navegacao" data-bs-smooth-scrool="true" data-bs-root-margin="0px 0px -40%">
+    <!-- HOME PAGE -->
+        <section id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1>👋🏻 Seja bem-vindo (a) ao meu Portfólio!</h1>
+                    </div>
+                    <div class="col-md-12 mt-3">
+                        <ul class="list-group list-group-horizontal justify-content-center">
+                            <li class="nav-item me-3">
+                                <a class="nav-link" href="https://www.instagram.com/marcos_junji/" target="_blank">
+                                    <i class="bi bi-instagram" style="font-size: 1.5em;"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link" href="https://www.linkedin.com/in/marcos-matsuoka/" target="_blank">
+                                    <i class="bi bi-linkedin" style="font-size: 1.5em;"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link" href="https://github.com/MarcosJunji" target="_blank">
+                                    <i class="bi bi-github" style="font-size: 1.5em;"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- ABOUT PAGE -->
+        <section id="sobre-mim">
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img class=" w-100 rounded" src="img/foto-perfil.jpeg" alt="">
+                        </div>
+                        <div class="col-md-9">
+                            <h2 class="section-title">Sobre <span class="text-colored">mim</span></h2>
+                            <p class="text-justify">Olá, me chamo Marcos Matsuoka.</p>
+                            <p class="text-justify">Atualmente sou aluno de Análise e Desenvolvimento de Sistemas e faço o curso livre Full Stack Python para aperfeiçoamento de novas linguagens de programação. Desenvolvi diversas tarefas e projetos através da EBAC, e as principais ferramentas utilizadas foram: HTML, CSS, Javascript, React, Banco de dados. Para complementar, estou desenvolvendo habilidades com a linguagem GoLang. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- TECNOLOGIAS DESENVOLVIDAS -->
+        <section id="tecnologias">
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="section-title text-center text-colored mb-5">Tecnologias</h1>
+                        </div>
+                        <div class="col-md-4 d-flex mt-3 tec">
+                            <div class="card border-light w-50">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-original.svg" alt="HTML"/>
+                                <h4>HTML</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex mt-3 tec">
+                            <div class="card border-light w-50">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original.svg" alt="CSS"/>
+                                <h4>CSS</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex mt-3 tec">
+                            <div class="card border-light w-50">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/javascript/javascript-original.svg" alt="JS">
+                                <h4>JavaScript</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex mt-3 tec">
+                            <div class="card border-light w-50">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/jquery/jquery-original.svg" alt="jQuery">
+                                <h4>jQuery</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex mt-3 tec">
+                            <div class="card border-light w-50">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/bootstrap/bootstrap-original.svg" alt="BOOTSTRAP">
+                                <h4>Bootstrap</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex mt-3 tec">
+                            <div class="card border-light w-50">
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/go/go-line.svg" alt="GOLANG">
+                                <h4>GoLang</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- PROJETOS -->
+        <section id="projetos">
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <h1 class="text-center section-title text-colored">Projetos</h1>
+                    </div>
+                    <div class="row">
+                        <aside class="col-md-2">
+                            <nav class="nav nav-pills flex-column">
+                                <button data-bs-toggle="tab" data-bs-target="#html" type="button" class="fw-bold text-start nav-link text-colored active text-center">HTML</button>
+                                <button data-bs-toggle="tab" data-bs-target="#css" type="button" class="fw-bold text-start nav-link text-colored text-center">CSS</button>
+                                <button data-bs-toggle="tab" data-bs-target="#js" type="button" class="fw-bold text-start nav-link text-colored text-center">JavaScript</button>
+                                <button data-bs-toggle="tab" data-bs-target="#react" type="button" class="fw-bold text-start nav-link text-colored text-center">React</button>
+                            </nav>
+                        </aside>
+                        <div class="col-md-10 mt-3">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="html">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img class="d-block w-100" src="img/img-bootstrap/16.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">Exemplo</h5>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img class="d-block w-100" src="img/img-bootstrap/1.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">Exemplo</h5>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img class="d-block w-100" src="img/img-bootstrap/2.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">Exemplo</h5>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img class="d-block w-100" src="img/img-bootstrap/3.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">Exemplo</h5>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="css">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img class="d-block w-100" src="img/img-bootstrap/4.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">Exemplo</h5>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img class="d-block w-100" src="img/img-bootstrap/5.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">Exemplo</h5>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img class="d-block w-100" src="img/img-bootstrap/6.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">Exemplo</h5>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img class="d-block w-100" src="img/img-bootstrap/7.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">Exemplo</h5>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="js">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img class="d-block w-100" src="img/img-bootstrap/8.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">Exemplo</h5>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img class="d-block w-100" src="img/img-bootstrap/9.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">Exemplo</h5>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img class="d-block w-100" src="img/img-bootstrap/10.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">Exemplo</h5>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img class="d-block w-100" src="img/img-bootstrap/11.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">Exemplo</h5>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="react">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img class="d-block w-100" src="img/img-bootstrap/12.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">Exemplo</h5>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img class="d-block w-100" src="img/img-bootstrap/13.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">Exemplo</h5>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img class="d-block w-100" src="img/img-bootstrap/14.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">Exemplo</h5>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img class="d-block w-100" src="img/img-bootstrap/15.png" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">Exemplo</h5>
+                                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- ÀREA DE CONTATO -->
+        <section id="contato">
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <h2 class="section-title text-colored mb-3">
+                                <i class="bi bi-person-plus-fill"></i>
+                                Contato
+                            </h2>
+                            <form class="form">
+                                <div class="mb-3">
+                                    <label class="form-label" for="nome">Nome completo</label>
+                                    <input type="text" class="form-control" id="nome">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="email">E-mail</label>
+                                    <input type="email" class="form-control" id="email">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="telefone">Telefone (opcional)</label>
+                                    <input type="tel" class="form-control" id="telefone">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="mensagem">Mensagem</label>
+                                    <textarea name="mensagem" id="mensagem" class="form-control"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-25">Enviar</button>
+                            </form>
+                        </div>
+                        <div class="col-md-5">
+                            <h3 class="section-title mb-3 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua. Meu Portfólio, 833 - Londrina - PR
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
